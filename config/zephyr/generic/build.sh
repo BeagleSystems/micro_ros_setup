@@ -37,6 +37,8 @@ pushd $FW_TARGETDIR >/dev/null
     # Platform renaming for Zephyr
     if [ "$PLATFORM" = "nucleo_f746zg" ]; then
         export BOARD="nucleo_f746zg"
+    elif [ "$PLATFORM" = "nucle_f446re" ]; then
+        export BOARD="nucleo_f446re"
     elif [ "$PLATFORM" = "discovery_l475_iot1" ]; then
         export BOARD="disco_l475_iot1"
     elif [ "$PLATFORM" = "olimex-stm32-e407" ]; then

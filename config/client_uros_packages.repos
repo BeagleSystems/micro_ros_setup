@@ -25,6 +25,14 @@ repositories:
     type: git
     url: https://github.com/micro-ROS/micro_ros_msgs.git
     version: foxy
+  uros/payload_interfaces:
+    type: git
+    url: git@github.com:BeagleSystems/payload_interfaces
+    version: master
+  uros/px4_msgs:
+    type: git
+    url: https://github.com/PX4/px4_msgs
+    version: 7ff28b17a9ec34ea1130fafacf273d49ad3d1379
   uros/rmw_microxrcedds:
     type: git
     url: https://github.com/micro-ROS/rmw-microxrcedds.git

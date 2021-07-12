@@ -38,6 +38,18 @@ else
             exit 1
         fi
 
+    elif [ "$PLATFORM" = "nucleo_f446re" ]; then
+
+        FLASH_OPENOCD=true
+        OPENOCD_TARGET="stm32f4x.cfg"
+
+        if lsusb -d 0483:374b;then
+            OPENOCD_PROGRAMMER=interface/stlink-v2-1.cfg
+        else
+            echo "Error: Unsupported OpenOCD programmer"
+            exit 1
+        fi
+
     elif [ "$PLATFORM" = "nucleo_h743zi" ]; then
 
         FLASH_OPENOCD=true
