@@ -29,6 +29,10 @@ repositories:
     type: git
     url: git@github.com:BeagleSystems/payload_interfaces
     version: master
+  uros/beagle_interfaces:
+    type: git
+    url: git@github.com:BeagleSystems/beagle_interfaces
+    version: master
   uros/px4_msgs:
     type: git
     url: https://github.com/PX4/px4_msgs
