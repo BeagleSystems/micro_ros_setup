@@ -12,8 +12,8 @@
   <build_depend>dfu-util</build_depend>
   <build_depend>wget</build_depend>
   <build_depend>xz-utils</build_depend>
-  <build_depend>gcc-multilib</build_depend>
-  <build_depend>g++-multilib</build_depend>
+  <!--build_depend>gcc-multilib</build_depend-->
+  <!--build_depend>g++-multilib</build_depend-->
   <build_depend>openocd</build_depend>
 
   <build_depend>python3-west-pip</build_depend>
